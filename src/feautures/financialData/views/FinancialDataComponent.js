@@ -29,7 +29,7 @@ const FinancialDataComponent = (props) => {
                             id="active"
                             type="text"
                             className={'form-control'}
-                            value={props.active}
+                            value="10000"
                         />
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const FinancialDataComponent = (props) => {
                     <br/>
                     <div className="col-sm-2 flex-div">
                         <input
-                            value={props.capital}
+                            value="10000"
                             type="text"
                             className={'form-control'}
                             id="capital"
@@ -73,7 +73,7 @@ const FinancialDataComponent = (props) => {
                     <br/>
                     <div className="col-sm-2 flex-div">
                         <input
-                            value={props.liability}
+                            value="10000"
                             type="text"
                             className={'form-control'}
                             id="liability"
@@ -98,7 +98,7 @@ const FinancialDataComponent = (props) => {
                     <br/>
                     <div className="col-sm-2 flex-div">
                         <input
-                            value={props.ebitda}
+                            value="10000"
                             type="text"
                             className={'form-control'}
                             id="ebitda"
@@ -120,7 +120,7 @@ const FinancialDataComponent = (props) => {
                     <br/>
                     <div className="col-sm-2 flex-div">
                         <input
-                            value={props.loss}
+                            value="10000"
                             type="text"
                             className={'form-control'}
                             id="loss"
@@ -148,7 +148,7 @@ const FinancialDataComponent = (props) => {
                             type="text"
                             className={'form-control'}
                             id="incometax"
-                            value={props.incomeTax}
+                            value="10000"
                         />
                     </div>
                 </div>
@@ -173,7 +173,7 @@ const FinancialDataComponent = (props) => {
                             type="text"
                             className={'form-control'}
                             id="propertytax"
-                            value={props.propertyTax}
+                            value="10000"
                         />
                     </div>
                 </div>
@@ -198,7 +198,7 @@ const FinancialDataComponent = (props) => {
                             type="text"
                             className={'form-control'}
                             id="dividend1"
-                            value={props.dividend1}
+                            value="10000"
                         />
                     </div>
                 </div>
@@ -223,7 +223,7 @@ const FinancialDataComponent = (props) => {
                             type="text"
                             className={'form-control'}
                             id="dividend2"
-                            value={props.dividend2}
+                            value="10000"
                         />
                     </div>
                 </div>

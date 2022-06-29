@@ -105,8 +105,8 @@ const store = (set, get) => ({
         ceo: '',
         countryOfOperation: ''
     },
-    directorList: [{dirname: 'İlham Nəsirov'}, {dirname: 'Bülent Karaca'}],
-    representativeList: [{repname: 'Rövnəq Abdullayev'}, {repname: 'Mustafa Kopuz'}],
+    directorList: [],
+    representativeList: [],
     financialData: {
         active: '',
         capital: '',
@@ -118,7 +118,7 @@ const store = (set, get) => ({
         dividend1: '',
         dividend2: '',
     },
-    companyShares: [{Y: 60, CNAME: "SOCAR"}, {Y: 40, CNAME: "Tekfen"}],
+    companyShares: [],
     initWorkflow: () => handleInitiateWorkflow(set, get),
     getCompanyDetails: () => handleGetCompanyDetails(set, get),
     getDirectors: () => handleGetDirectors(set, get),

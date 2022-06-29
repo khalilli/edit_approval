@@ -14,14 +14,14 @@ const PublicApp = () => {
 export const publicRoutes = [
     {
         path: '/',
-        element: <Navigate to={window.baseUrl + 'editapp/cd' + '?func=ll&objId=' + window.currentWebreportId + '&objAction=RunReport'} />
+        element: <Navigate to={window.baseUrl + 'editappr/cd' + '?func=ll&objId=' + window.currentWebreportId + '&objAction=RunReport'} />
     },
     {
         path: window.baseUrl,
-        element: <Navigate to={window.baseUrl + 'editapp/cd' + '?func=ll&objId=' + window.currentWebreportId + '&objAction=RunReport'} />
+        element: <Navigate to={window.baseUrl + 'editappr/cd' + '?func=ll&objId=' + window.currentWebreportId + '&objAction=RunReport'} />
     },
     {
-        path: window.baseUrl + 'editapp',
+        path: window.baseUrl + 'editappr',
         element: <PublicApp />,
         children: [
             {
